@@ -1,4 +1,8 @@
+import { addDecorator } from "@storybook/react";
 import GlobalStyles from "../src/styles/global";
+import StoryRouter from "storybook-react-router";
+
+addDecorator(StoryRouter());
 
 export const decorators = [
   (Story) => (
