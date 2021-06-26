@@ -8,6 +8,7 @@ This project uses lot of stuff as:
 
 - [Create React App - CRA](https://create-react-app.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
 - [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)

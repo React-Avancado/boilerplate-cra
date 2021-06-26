@@ -19,5 +19,8 @@ exports[`<Main /> should render the heading 1`] = `
     class="sc-hKFxyN fWLaFx"
     src="/hero-illustration.svg"
   />
+  <div
+    data-testid="Menu"
+  />
 </main>
 `;

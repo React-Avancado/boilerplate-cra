@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "components/Main";
 import GlobalStyles from "styles/global";
 import reportWebVitals from "./reportWebVitals";
+import { IndexPage } from "pages/Index";
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyles />
-    <Main />
+    <IndexPage />
   </React.StrictMode>,
   document.getElementById("root")
 );
