@@ -2,26 +2,21 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <main
-  class="sc-bdnxRM eCfYUM"
+  class="sc-bdnxRM fBbHXb"
 >
   <img
     alt="Imagem de um átomo e React Avançado escrito ao lado."
     class="sc-gtsrHT gNmutz"
     src="/logo.svg"
   />
-  <h1
-    class="sc-dlnjwi faoYDH"
-  >
-    React Avançado
-  </h1>
   <h2
-    class="sc-hKFxyN iZJdrJ"
+    class="sc-dlnjwi gVpAup"
   >
     CRA, TypeScript e Styled Components
   </h2>
   <img
     alt="Um desenvolvedor de frente para uma tela com código."
-    class="sc-eCApnc cnUamd"
+    class="sc-hKFxyN fWLaFx"
     src="/hero-illustration.svg"
   />
 </main>
