@@ -36,7 +36,11 @@
     ],
     "collectCoverageFrom": [
       "src/**/*.ts(x)?",
-      "!src/**/stories.tsx"
+      "!src/**/stories.tsx",
+      "!src/styles/*.ts",
+      "!src/reportWebVitals.ts",
+      "!src/**/*.d.ts",
+      "!src/index.tsx"
     ]
   },
   "eslintConfig": {
