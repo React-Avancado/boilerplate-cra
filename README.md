@@ -15,19 +15,40 @@ This project uses lot of stuff as:
 - [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
 
+## Folder Structure
+
+```sh
+├── README.md
+├── generators # folder to our templates
+├── public # folder with our assets
+├── src
+│   ├── App.tsx # main file to our SPA (We define routes/components here)
+│   ├── components
+│   │   └──Example
+│   │       ├── index.tsx
+│   │       ├── stories.tsx
+│   │       ├── styles.ts
+│   │       └── test.tsx
+│   ├── index.tsx # main file to ReactDom.render
+│   ├── pages # we separated our pages/views/screens here
+│   │   └── About.tsx
+│   └── styles # any styles that you want to share inside the app
+│       └── global.ts
+```
+
 ## Getting Started
 
-First, run the development server:
+First you can clone or use this template in your GitHub profile.
 
-```bash
-npm run start
-# or
+```sh
+# install the deps
+yarn
+
+# run the project
 yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Other commands like `generating components` and test are listed below:
 
 ## Commands
 
