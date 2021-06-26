@@ -10,6 +10,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -22,6 +23,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/test.tsx"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.ts(x)?",
+      "!src/**/stories.tsx"
+    ]
   },
   "eslintConfig": {
     "extends": [
